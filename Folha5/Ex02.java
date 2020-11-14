@@ -57,8 +57,6 @@ public class Ex02 {
     }
 
     public static void printNtimes(int n, String text){
-        for(int i=0;i<n;i++){
-            System.out.print(text);
-        }
+        for(int i=0;i<n;i++) System.out.print(text);
     }
 }
